@@ -3,7 +3,9 @@ Evaluation data for SEMANTICS 2015.
 
 ##Dependencies
 Issue the following commands to install all needed packages in Ubuntu 14.04.
+
         sudo apt-get install python-pip python-librdf ipython python-psutil
+
         sudo pip install networkx
 
 ##Dataset links
