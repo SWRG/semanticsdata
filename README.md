@@ -1,6 +1,3 @@
-# semanticsdata
-Evaluation data for SEMANTICS 2015.
-
 ##Dependencies
 Issue the following commands to install all needed packages in Ubuntu 14.04.
 
