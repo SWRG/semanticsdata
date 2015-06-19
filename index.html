@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Semanticsdata : Evaluation data for SEMANTICS 2015.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Semanticsdata</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/SWRG/semanticsdata">View on GitHub</a>
+
+          <h1 id="project_title">Semanticsdata</h1>
+          <h2 id="project_tagline">Evaluation data for SEMANTICS 2015.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/SWRG/semanticsdata/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/SWRG/semanticsdata/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h2>
+<a id="dependencies" class="anchor" href="#dependencies" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dependencies</h2>
+
+<p>Issue the following commands to install all needed packages in Ubuntu 14.04.</p>
+
+<pre><code>    sudo apt-get install python-pip python-librdf ipython python-psutil
+
+    sudo pip install networkx
+</code></pre>
+
+<h2>
+<a id="dataset-links" class="anchor" href="#dataset-links" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dataset links</h2>
+
+<p>The 100% DBPEDIA dataset can be downloaded from the link below:</p>
+
+<ul>
+<li>The 100% DBPEDIA dataset: <a href="http://benchmark.dbpedia.org/benchmark_100.nt.bz2">http://benchmark.dbpedia.org/benchmark_100.nt.bz2</a>
+</li>
+</ul>
+
+<h2>
+<a id="summary-creation" class="anchor" href="#summary-creation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Summary Creation</h2>
+
+<ol>
+<li>
+<p>To create the RDF-type summary graph of a given N-Triples RDF dataset, execute the summary creation script:</p>
+
+<pre><code>create_summary.py benchmark_x.nt
+</code></pre>
+
+<p>where benchmark_x.nt is the input dataset.</p>
+</li>
+</ol>
+
+<h2>
+<a id="shortest-paths-algorithm" class="anchor" href="#shortest-paths-algorithm" aria-hidden="true"><span class="octicon octicon-link"></span></a>Shortest Paths Algorithm</h2>
+
+<p>An implementation of the shortest paths algorithm presented in the paper is available in the file ksp.py.</p>
+
+<h2>
+<a id="path-to-sparql-converter" class="anchor" href="#path-to-sparql-converter" aria-hidden="true"><span class="octicon octicon-link"></span></a>Path-to-SPARQL Converter</h2>
+
+<p>The file converter.py contains an implementation of the path-to-SPARQL converter.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Semanticsdata maintained by <a href="https://github.com/SWRG">SWRG</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
